@@ -18,6 +18,8 @@
     - Grouped to types
     - "values/size": 1 for small box, 2 for wide box
 
+    - example:
+
     ```json
     "significantValues": [
       {
