@@ -1,5 +1,6 @@
 # Dashboard
 
+- returns dashboard data
 - **route**: /api/Dashboard
 - **parameters**:
   - nodeId: NodeId from tree

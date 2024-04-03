@@ -1,5 +1,6 @@
 # DeviceDashboard
 
+- Returns Dashboard for concrete device
 - **route**: /api/Device/DeviceDashboard/{deviceId}
 - **parameters**:
   - deviceId: deviceId (node from tree, where has deviceId)
@@ -10,7 +11,6 @@
 ## Response
 
 - _"aggregatedData"_: historical data for timespan specified as preset input parameter
--
 
 ```Json
 [
@@ -78,7 +78,34 @@
     }
   }
 ]
+```
 
+# Variables
 
+- Returns all vaviables for a specific device
+- **route**: /api/Device/Variables
+- **parameters**:
+  - deviceId: deviceId (node from tree, where has deviceId)
 
+```Json
+[
+  {
+    "id": 0,
+    "name": "string",
+    "sourceUnit": "string",
+    "unitCategory": 0,
+    "unit": "string",
+    "manualUnit": "string",
+    "value": "string",
+    "lastInsert": "2024-04-03T09:03:29.583Z",
+    "significant": true,
+    "primary": true,
+    "timerSeconds": 0,
+    "deviceName": "string",
+    "modelRepositoryVariable": 0,
+    "range": {
+      "from": 0,
+      "to": 0
+    }
+  }
 ```

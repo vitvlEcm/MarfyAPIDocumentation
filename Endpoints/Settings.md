@@ -1,0 +1,3 @@
+# DisableNotification/{notificationId}
+
+# EnableNotification/{notificationId}
