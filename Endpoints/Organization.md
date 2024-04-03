@@ -14,6 +14,8 @@
 ]
 ```
 
+![TreeOrg](../Images/Tree.png "TreeOrg")
+
 # Tree
 
 - Endpoint for obtainting users tree
@@ -45,8 +47,6 @@
 ]
 ```
 
-![Tree](../Images/Tree.png "Tree")
-
 # TreeNodeTypes
 
 - Endpoint for obtainting all possible node types in tree
@@ -65,3 +65,5 @@
   }
 ]
 ```
+
+![TreeChildren](../Images/TreeChildren.png "TreeChildren")
