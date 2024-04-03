@@ -108,4 +108,4 @@
 }
 ```
 
-![Dashboard](../Images/Dashboard.png "MarineGEO logo")
+![Dashboard](../Images/Dashboard.png)

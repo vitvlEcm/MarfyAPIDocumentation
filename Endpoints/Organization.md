@@ -1,6 +1,7 @@
 # Organizations
 
 - Endpoint for obtainting user organization list
+- _/api/Organization/Organizations_
 
 ## Response
 
@@ -14,6 +15,12 @@
 ```
 
 # Tree
+
+- Endpoint for obtainting users tree
+- _/api/Organization/Tree_
+
+- **parameters**:
+  - _orgId:_ Current organization ID
 
 ## Response
 
@@ -38,7 +45,12 @@
 ]
 ```
 
+![Tree](../Images/Tree.png "Tree")
+
 # TreeNodeTypes
+
+- Endpoint for obtainting all possible node types in tree
+- _/api/Organization/TreeNodeTypes_
 
 ## Response
 
