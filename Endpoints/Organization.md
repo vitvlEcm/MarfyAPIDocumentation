@@ -47,6 +47,8 @@
 ]
 ```
 
+![TreeChildren](../Images/TreeChildren.png "TreeChildren")
+
 # TreeNodeTypes
 
 - Endpoint for obtainting all possible node types in tree
@@ -65,5 +67,3 @@
   }
 ]
 ```
-
-![TreeChildren](../Images/TreeChildren.png "TreeChildren")
