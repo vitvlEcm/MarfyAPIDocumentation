@@ -2,14 +2,14 @@
 
 ## Endpoints
 
-1. [Dashboard](/Endpoints/Dashboard.md)
-1. [Device](/Endpoints/Device.md)
-1. [Notifications](/Endpoints/Notifications.md)
-1. [Organization](/Endpoints/Organization.md)
-1. [Settings](/Endpoints/Settings.md)
-1. [Stats](/Endpoints/Stats.md)
-1. [Technology](/Endpoints/Technology.md)
-1. [User](/Endpoints/User.md)
+- [Dashboard](/Endpoints/Dashboard.md)
+- [Device](/Endpoints/Device.md)
+- [Notifications](/Endpoints/Notifications.md)
+- [Organization](/Endpoints/Organization.md)
+- [Settings](/Endpoints/Settings.md)
+- [Stats](/Endpoints/Stats.md)
+- [Technology](/Endpoints/Technology.md)
+- [User](/Endpoints/User.md)
 
 ## Changes
 
