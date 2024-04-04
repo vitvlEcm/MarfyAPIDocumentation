@@ -2,9 +2,10 @@
 
 - returns dashboard data
 - **route**: /api/Dashboard
+- **method**: _HttpGet_
 - **parameters**:
-  - nodeId: NodeId from tree
-  - orgId: Current organization ID
+  - **nodeId**: NodeId from tree
+  - **orgId**: Current organization ID
 
 ## Response
 
@@ -19,7 +20,7 @@
     - Grouped to types
     - "values/size": 1 for small box, 2 for wide box
 
-    - example:
+  - example:
 
     ```json
     "significantValues": [
@@ -61,6 +62,7 @@
     ```
 
   - **technologies**
+  - used for graphics in the upper half
 
 ### Example:
 

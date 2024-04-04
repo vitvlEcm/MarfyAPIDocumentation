@@ -2,8 +2,9 @@
 
 - Endpoint for obtainting user organization list
 - _/api/Organization/Organizations_
+- **method**: _HttpGet_
 
-## Response
+### Example
 
 ```Json
 [
@@ -19,12 +20,13 @@
 # Tree
 
 - Endpoint for obtainting users tree
+- **method**: _HttpGet_
 - _/api/Organization/Tree_
 
 - **parameters**:
   - _orgId:_ Current organization ID
 
-## Response
+### Example
 
 ```Json
 [
@@ -52,9 +54,10 @@
 # TreeNodeTypes
 
 - Endpoint for obtainting all possible node types in tree
+- method: _HttpGet_
 - _/api/Organization/TreeNodeTypes_
 
-## Response
+### Example
 
 ```Json
 [

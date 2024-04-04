@@ -1,16 +1,22 @@
 # DeviceDashboard
 
 - Returns Dashboard for concrete device
+- **method**: _HttpGet_
 - **route**: /api/Device/DeviceDashboard/{deviceId}
+
+## Request
+
 - **parameters**:
-  - deviceId: deviceId (node from tree, where has deviceId)
-  - preset: use id from api/Stats/PossibleTimeseriesTimes, to use From and To times, set this to -1
-  - from: datetime from
-  - to: datetime to
+  - **deviceId**: deviceId (node from tree, where has deviceId)
+  - **preset**: use id from api/Stats/PossibleTimeseriesTimes, to use From and To times, set this to -1
+  - **from**: datetime from
+  - **to**: datetime to
 
 ## Response
 
 - _"aggregatedData"_: historical data for timespan specified as preset input parameter
+
+### Example
 
 ```Json
 [
@@ -83,9 +89,12 @@
 # Variables
 
 - Returns all vaviables for a specific device
+- **method**: _HttpGet_
 - **route**: /api/Device/Variables
 - **parameters**:
-  - deviceId: deviceId (node from tree, where has deviceId)
+  - **deviceId**: deviceId (node from tree, where has deviceId)
+
+### Example
 
 ```Json
 [
@@ -108,4 +117,5 @@
       "to": 0
     }
   }
+]
 ```

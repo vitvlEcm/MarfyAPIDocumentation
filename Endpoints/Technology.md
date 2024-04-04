@@ -1,6 +1,7 @@
 # Detail
 
 - returns technology details for concrete technology
+- **method**: _HttpGet_
 
 - **parameters**:
 
@@ -11,7 +12,9 @@
   - _from:_ datetime from
   - _to:_ datetime to
 
-- _response_
+## Response
+
+### Example
 
 ```Json
 [
@@ -50,6 +53,7 @@
 
 - _/api/Technology/TechnologiesForNode_
 - Returns all technologies in children nodes
+- **method**: _HttpGet_
 - **parameters**:
   - _orgId:_ Current organization ID
   - _nodeId:_ Current nodeID
@@ -58,6 +62,10 @@
 
 - _/api/Technology/List_
 - returns all possible technologies
+
+## Response
+
+### Example
 
 ```Json
 [

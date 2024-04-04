@@ -1,8 +1,11 @@
 # Notifications
 
 - Get all custom notifications for user
+- **method**: _HttpGet_
 
 ## Response
+
+### Example
 
 ```json
 [
@@ -23,6 +26,8 @@
 # NotificationsHistory
 
 ## Response
+
+### Example
 
 ```json
 [
@@ -48,7 +53,11 @@
 
 # NotificationTypes
 
+- **method**: _HttpGet_
+
 ## Response
+
+### Example
 
 ```json
 [
