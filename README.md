@@ -12,6 +12,10 @@
 - [Technology](/Endpoints/Technology.md)
 - [User](/Endpoints/User.md)
 
+## Use Cases
+
+[UseCases](/Endpoints/UseCases.md)
+
 ## Changes
 
 ### 2.4.2024
