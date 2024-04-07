@@ -2,6 +2,7 @@
 
 ## Endpoints
 
+- [Auth](/Endpoints/Auth.md)
 - [Dashboard](/Endpoints/Dashboard.md)
 - [Device](/Endpoints/Device.md)
 - [Notifications](/Endpoints/Notifications.md)
