@@ -19,8 +19,13 @@
   - `200 OK`: User info and JWT.
     ```json
     {
-      "AccessToken": "string",
-      "RefreshToken": "string"
+      "userName": "string",
+      "name": "string",
+      "surname": "string",
+      "accessToken": "string",
+      "accessExpiration": "2024-04-07T17:41:49.042Z",
+      "refreshToken": "string",
+      "refreshExpiration": "2024-04-07T17:41:49.042Z"
     }
     ```
   - `401 Unauthorized`: Unauthorized.
@@ -37,8 +42,8 @@
   - `200 OK`: Renewed access token.
     ```json
     {
-      "AccessToken": "string",
-      "RefreshToken": "string"
+      "accessToken": "string",
+      "accessExpiration": "2024-04-07T17:41:49.047Z"
     }
     ```
   - `400 Bad Request`: Provided token is not readable.
