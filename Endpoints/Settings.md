@@ -1,4 +1,4 @@
-# Organizations
+# Settings
 
 - **Route:** `{server}/api/Settings`
 
