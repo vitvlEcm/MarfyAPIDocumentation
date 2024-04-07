@@ -10,8 +10,8 @@
   - `Preset`: Use ID from `api/Stats/PossibleTimeseriesTimes`. To use `From` and `To` times, set this to -1.
   - `From`: Start DateTime.
   - `To`: End DateTime.
-  - `variables`: Collection of requested variables.
-  - `nodeId`: The ID of the node.
+  - `variables`: Collection of requested variables. (`elementId` from `/AggregationDataForNode`)
+  - `nodeId`: The ID of the node, use same node Id which was used for input to previous call `/AggregationDataForNode`
 - **Response:**
   - `200 OK`: Timeseries data.
     ```json
@@ -30,6 +30,7 @@
       }
     ]
     ```
+    ![StatsDetail](../Images/StatsDetail.png)
   - `401 Unauthorized`: User not authorized to perform this action.
 
 ## `Get` Get Aggregation Data for Node
@@ -72,6 +73,7 @@
       }
     ]
     ```
+    ![Stats](../Images/Stats.png)
   - `401 Unauthorized`: User not authorized to perform this action.
 
 ## `Get` Possible Timeseries Times

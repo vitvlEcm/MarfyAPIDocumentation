@@ -16,37 +16,55 @@
 - **Response:**
   - `200 OK`: Technology details retrieved successfully.
     ```json
-    [
-      {
+    {
+      "typeId": 0,
+      "typeName": "string",
+      "description": "string",
+      "data": [
+        {
+          "id": 0,
+          "name": "string",
+          "sourceUnit": "string",
+          "unitCategory": 0,
+          "unit": "string",
+          "manualUnit": "string",
+          "value": "string",
+          "lastInsert": "2024-04-07T20:36:20.077Z",
+          "significant": true,
+          "primary": true,
+          "timerSeconds": 0,
+          "deviceName": "string",
+          "modelRepositoryVariable": 0,
+          "range": {
+            "from": 0,
+            "to": 0
+          }
+        }
+      ],
+      "timeseries": {
         "name": "string",
-        "id": 0,
-        "typeId": 0,
-        "typeName": "string",
-        "description": "string",
+        "unit": "string",
+        "aggregationName": "string",
+        "variableId": 0,
         "data": [
           {
-            "id": 0,
-            "name": "string",
-            "sourceUnit": "string",
-            "unitCategory": 0,
-            "unit": "string",
-            "manualUnit": "string",
-            "value": "string",
-            "lastInsert": "2024-04-03T09:55:49.098Z",
-            "significant": true,
-            "primary": true,
-            "timerSeconds": 0,
-            "deviceName": "string",
-            "modelRepositoryVariable": 0,
-            "range": {
-              "from": 0,
-              "to": 0
-            }
+            "timestamp": "2024-04-07T20:36:20.077Z",
+            "value": 0
           }
         ]
-      }
-    ]
+      },
+      "devices": [
+        {
+          "description": "string",
+          "id": 0,
+          "name": "string",
+          "typeId": 0,
+          "typeName": "string"
+        }
+      ]
+    }
     ```
+    ![TechnologyDetail](../Images/TechnologyDetail.png)
   - `401 Unauthorized`: User not authorized to perform this action.
 
 ## `Get` Technologies for Node
@@ -61,14 +79,36 @@
     ```json
     [
       {
+        "description": "string",
         "id": 0,
         "name": "string",
-        "description": "string",
-        "iconUrl": "string",
-        "iconLastUpdate": "2024-04-03T09:56:34.517Z"
+        "typeId": 0,
+        "typeName": "string",
+        "data": [
+          {
+            "id": 0,
+            "name": "string",
+            "sourceUnit": "string",
+            "unitCategory": 0,
+            "unit": "string",
+            "manualUnit": "string",
+            "value": "string",
+            "lastInsert": "2024-04-07T20:29:22.882Z",
+            "significant": true,
+            "primary": true,
+            "timerSeconds": 0,
+            "deviceName": "string",
+            "modelRepositoryVariable": 0,
+            "range": {
+              "from": 0,
+              "to": 0
+            }
+          }
+        ]
       }
     ]
     ```
+    ![Technologies](../Images/Technologies.png)
   - `401 Unauthorized`: User not authorized to perform this action.
 
 ## `Get` Technologies List
