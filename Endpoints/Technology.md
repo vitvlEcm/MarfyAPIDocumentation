@@ -1,5 +1,7 @@
 # Technology
 
+- **Route:** `{server}/api/Technology`
+
 ## `Get` Technology Details
 
 - **Endpoint:** `GET /Detail`

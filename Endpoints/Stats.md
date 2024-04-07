@@ -1,3 +1,7 @@
+# Settings
+
+- **Route:** `{server}/api/Stats`
+
 ## `Get` Get Timeseries Data
 
 - **Endpoint:** `GET /TimeseriesData`
