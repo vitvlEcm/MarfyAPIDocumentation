@@ -44,7 +44,7 @@
 
 - TechnologiesForNode
 
-  - returned object simplified as requested, removed nested object _"Data"_ and contents moved to parent
+  - returned object was simplified as requested on call, removed nested object _"Data"_ and contents moved to parent
 
 - removed unused parameters sourceUnit and manualUnit from multiple responses
 
