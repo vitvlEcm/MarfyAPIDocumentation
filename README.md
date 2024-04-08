@@ -44,8 +44,8 @@
 
 - TechnologiesForNode
 
-  - returned object was simplified as requested on call, removed nested object _"Data"_ and contents moved to parent
+  - returned object was simplified as requested on call with Petr, removed nested object _"Data"_ and contents moved to parent
 
 - removed unused parameters sourceUnit and manualUnit from multiple responses
 
-- parameters typeId, typename => technologyId, technologyName on several places, typeId, typename kept to avoid breaking old mappings. Should be deleted if OK
+- parameters typeId, typename => technologyId, technologyName on several places. TypeId, typename kept to avoid breaking old mappings. Should be deleted if OK
