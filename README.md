@@ -28,12 +28,24 @@
 
 - Added endpoint _"/api/Notifications/NotificationsTypes"_
 
-<!-- #### Device
+#### Device
 
 - DeviceDashboard
-  - timeseries simplified by moving to separate object -->
+  - timeseries simplified by moving to separate object
+  - added parameters for device name and id
 
 #### Technology
 
 - TechnologyDashboard
+
   - timeseries simplified by moving to separate object
+
+### 6.4.2024
+
+- TechnologiesForNode
+
+  - returned object simplified as requested, removed nested object _"Data"_ and contents moved to parent
+
+- removed unused parameters sourceUnit and manualUnit from multiple responses
+
+- parameters typeId, typename => technologyId, technologyName on several places, typeId, typename kept to avoid breaking old mappings. Should be deleted if OK
