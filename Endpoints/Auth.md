@@ -10,6 +10,7 @@
   - `Input`: Object with username and password.
     ```json
     {
+      //use "3d7cde1d-5deb-4107-a8a4-8e438a08c9df" for ApplicationId
       "UserName": "string",
       "Password": "string",
       "ApplicationId": "string"
@@ -22,10 +23,10 @@
       "userName": "string",
       "name": "string",
       "surname": "string",
-      "accessToken": "string",
-      "accessExpiration": "2024-04-07T17:41:49.042Z",
-      "refreshToken": "string",
-      "refreshExpiration": "2024-04-07T17:41:49.042Z"
+      "accessToken": "string", //JWT access token
+      "accessExpiration": "2024-04-07T17:41:49.042Z", //expiration timestamp in UTC
+      "refreshToken": "string", //JWT refresh token
+      "refreshExpiration": "2024-04-07T17:41:49.042Z" //expiration timestamp in UTC
     }
     ```
   - `401 Unauthorized`: Unauthorized.
@@ -42,8 +43,8 @@
   - `200 OK`: Renewed access token.
     ```json
     {
-      "accessToken": "string",
-      "accessExpiration": "2024-04-07T17:41:49.047Z"
+      "accessToken": "string", //JWT refresh token
+      "accessExpiration": "2024-04-07T17:41:49.047Z" //expiration timestamp in UTC
     }
     ```
   - `400 Bad Request`: Provided token is not readable.

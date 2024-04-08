@@ -10,7 +10,7 @@
 
 - `Flow`:
 
-  1. Client sends a GET request to the Organization API endpoint `/api/Organization/`Organizations to retrieve a list of organizations.
+  1. Client sends a GET request to the Organization API endpoint `/api/Organization/Organizations`Organizations to retrieve a list of organizations.
   1. Organization API responds with a list of organizations including their IDs and names.
   1. Client selects the organization and extracts its ID.
   1. Client sends a GET request to the Organization API endpoint `/api/Organization/Tree` with the selected organization's ID as a parameter.
@@ -69,3 +69,25 @@
   ## Sequence
 
   ![TechnologySequence](../Images/sequence/TechnologySequence.png)
+
+## **Use Case 4**: Retrieve Technology Details and Device Dashboard Data
+
+- `Description`: This use case describes the process of retrieving technology details for a specific technology and then obtaining dashboard data for a selected device associated with that technology.
+
+- `Preconditions`:
+
+  - Client has access to the API.
+  - List of technologies associated with the node is available.
+  - Details for a selected technology are available.
+
+- `Flow`:
+
+1. Client performs the steps outlined in the **\*Use Case 3**: Retrieve Technology Details\* use case to obtain details for a selected technology.
+1. Client selects a device from the list of devices associated with the selected technology.
+1. Client sends a GET request to the Devices API endpoint `/api/Device/DeviceDashboard/{deviceId}` with the deviceId parameter to retrieve dashboard data for the selected device.
+1. Devices API responds with the dashboard data for the selected device.
+1. Client receives the dashboard data for the selected device.
+
+## Sequence
+
+![DeviceSequence](../Images/sequence/DeviceSequence.png)

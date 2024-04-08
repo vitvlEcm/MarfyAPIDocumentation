@@ -63,7 +63,7 @@
           "description": "string"
         },
         "order": 0,
-        "elementId": 0,
+        "elementId": 0, //Id of variable => used for GET /TimeseriesData
         "elementName": "string",
         "variableId": 0,
         "valueSerialized": "string",
@@ -96,6 +96,7 @@
           "maxRangeInHours": 0,
           "defaultRangeInHours": 0
         },
+        //now unused
         "possibleIntervals": [
           {
             "name": "string",

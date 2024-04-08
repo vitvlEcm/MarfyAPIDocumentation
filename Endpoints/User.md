@@ -23,7 +23,7 @@
 ## `Delete` Remove User
 
 - **Endpoint:** `DELETE /`
-- **Description:** Endpoint to remove the current user.
+- **Description:** Endpoint to remove the current user. Added for appstore policies.
 - **Parameters:** None
 - **Response:**
   - `200 OK`: User deleted successfully.

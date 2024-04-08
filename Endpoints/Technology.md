@@ -17,21 +17,19 @@
   - `200 OK`: Technology details retrieved successfully.
     ```json
     {
-      "typeId": 0,
-      "typeName": "string",
+      "id": 0,
+      "name": "string",
       "description": "string",
       "data": [
         {
-          "id": 0,
-          "name": "string",
-          "sourceUnit": "string",
+          "id": 0, // technology ID
+          "name": "string", // technology Name
           "unitCategory": 0,
           "unit": "string",
-          "manualUnit": "string",
           "value": "string",
           "lastInsert": "2024-04-07T20:36:20.077Z",
-          "significant": true,
-          "primary": true,
+          "significant": true, //device may have multiple significant values
+          "primary": true, //unique, only one variable per device
           "timerSeconds": 0,
           "deviceName": "string",
           "modelRepositoryVariable": 0,
@@ -58,8 +56,10 @@
           "description": "string",
           "id": 0,
           "name": "string",
-          "typeId": 0,
-          "typeName": "string"
+          "technologyId": 0,
+          "technologyName": "string",
+          "typeId": 0, //Deprecated = TechnologyId
+          "typeName": "string" //Deprecated = TechnologyName
         }
       ]
     }
@@ -82,29 +82,15 @@
         "description": "string",
         "id": 0,
         "name": "string",
-        "typeId": 0,
-        "typeName": "string",
-        "data": [
-          {
-            "id": 0,
-            "name": "string",
-            "sourceUnit": "string",
-            "unitCategory": 0,
-            "unit": "string",
-            "manualUnit": "string",
-            "value": "string",
-            "lastInsert": "2024-04-07T20:29:22.882Z",
-            "significant": true,
-            "primary": true,
-            "timerSeconds": 0,
-            "deviceName": "string",
-            "modelRepositoryVariable": 0,
-            "range": {
-              "from": 0,
-              "to": 0
-            }
-          }
-        ]
+        "unitCategory": 0,
+        "unit": "string",
+        "value": "string",
+        "lastInsert": "2024-04-07T23:38:22.235Z",
+        "timerSeconds": 0,
+        "range": {
+          "from": 0,
+          "to": 0
+        }
       }
     ]
     ```

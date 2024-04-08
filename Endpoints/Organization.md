@@ -40,7 +40,7 @@
         "childrenCount": 0,
         "order": 0,
         "modelRepositoryDevice": 0,
-        "deviceTypeName": "string",
+        "technologyId": 0,
         "typeName": "string",
         "children": [
           "string"

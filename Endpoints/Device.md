@@ -15,57 +15,24 @@
 - **Response:**
   - `200 OK`: List of combined data models.
     ```json
-    [
-      {
-        "variableName": "string",
-        "variableId": 0,
-        "aggregatedData": {
-          "aggregationId": 0,
-          "aggregationName": "string",
-          "aggregationDescription": "string",
-          "aggregationTypeId": 0,
-          "first": {
-            "value": "string",
-            "abbr": "string",
-            "description": "string"
-          },
-          "second": {
-            "value": "string",
-            "abbr": "string",
-            "description": "string"
-          },
-          "order": 0,
-          "elementId": 0,
-          "elementName": "string",
-          "variableId": 0,
-          "valueSerialized": "string",
-          "unit": "string",
-          "value": 0,
-          "readDateTime": "2024-04-07T17:22:13.157Z"
-        },
-        "timeseriesData": {
-          "name": "string",
-          "unit": "string",
-          "aggregationName": "string",
-          "variableId": 0,
-          "data": [
-            {
-              "timestamp": "2024-04-07T17:22:13.157Z",
-              "value": 0
-            }
-          ]
-        },
-        "data": {
+    {
+      "id": 0,
+      "name": "string",
+      "technologyId": 0,
+      "technologyName": "string",
+      "typeId": 0, //Deprecated = TechnologyId
+      "typeName": "string", //Deprecated = TechnologyName
+      "description": "string",
+      "data": [
+        {
           "id": 0,
           "name": "string",
-          "sourceUnit": "string",
           "unitCategory": 0,
           "unit": "string",
-          "manualUnit": "string",
           "value": "string",
-          "lastInsert": "2024-04-07T17:22:13.157Z",
-          "significant": true,
-          "primary": true,
+          "lastInsert": "2024-04-08T01:18:42.174Z",
+          "significant": true, //device may have multiple significant values
+          "primary": true, //unique, only one variable per device
           "timerSeconds": 0,
           "deviceName": "string",
           "modelRepositoryVariable": 0,
@@ -74,8 +41,20 @@
             "to": 0
           }
         }
+      ],
+      "timeseries": {
+        "name": "string",
+        "unit": "string",
+        "aggregationName": "string",
+        "variableId": 0,
+        "data": [
+          {
+            "timestamp": "2024-04-08T01:18:42.174Z",
+            "value": 0
+          }
+        ]
       }
-    ]
+    }
     ```
   - `400 Bad Request`: Node not present in the passed organization.
   - `401 Unauthorized`: User not authorized to perform this action.
@@ -100,8 +79,8 @@
         "manualUnit": "string",
         "value": "string",
         "lastInsert": "2024-04-07T17:27:25.447Z",
-        "significant": true,
-        "primary": true,
+        "significant": true, //device may have multiple significant values
+        "primary": true, //unique, only one variable per device
         "timerSeconds": 0,
         "deviceName": "string",
         "modelRepositoryVariable": 0,
@@ -130,8 +109,8 @@
         "description": "string",
         "id": 0,
         "name": "string",
-        "typeId": 0,
-        "typeName": "string"
+        "technologyId": 0,
+        "technologyName": "string"
       }
     ]
     ```

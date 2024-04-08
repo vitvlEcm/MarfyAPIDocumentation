@@ -17,10 +17,10 @@
         "name": "string",
         "id": 0,
         "text": "string",
-        "status": true,
+        "status": true, //true if alert is on
         "priority": "string",
-        "type": "string",
-        "typeId": 0
+        "type": "string", // type from  GET /NotificationTypes
+        "typeId": 0 // id from  GET /NotificationTypes
       }
     ]
     ```
