@@ -33,11 +33,11 @@
       {
         "name": "string",
         "description": "string",
-        "technology": 0,
+        "technologyId": 0, //technologyId
         "order": 0, //Order or the box with data on the dashboard
         "values": [
           {
-            "id": 0,
+            "id": 0, //elementId
             "name": "string",
             "desctription": "string",
             "value": "string",
@@ -62,7 +62,7 @@
         "unit": "string",
         "value": "string",
         "lastInsert": "2024-04-08T01:00:53.095Z",
-        "timerSeconds": 0,
+        "timerSeconds": 0, //refresh period
         "modelRepositoryVariable": 0,
         "range": {
           "from": 0,

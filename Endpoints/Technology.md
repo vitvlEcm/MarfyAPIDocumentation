@@ -30,7 +30,7 @@
           "lastInsert": "2024-04-07T20:36:20.077Z",
           "significant": true, //device may have multiple significant values
           "primary": true, //unique, only one variable per device
-          "timerSeconds": 0,
+          "timerSeconds": 0, //refresh period
           "deviceName": "string",
           "modelRepositoryVariable": 0,
           "range": {
@@ -86,7 +86,7 @@
         "unit": "string",
         "value": "string",
         "lastInsert": "2024-04-07T23:38:22.235Z",
-        "timerSeconds": 0,
+        "timerSeconds": 0, //refresh period
         "range": {
           "from": 0,
           "to": 0

@@ -20,7 +20,7 @@
   - `200 OK`: User info and JWT.
     ```json
     {
-      "userName": "string",
+      "userName": "string", //userename in e-mail format
       "name": "string",
       "surname": "string",
       "accessToken": "string", //JWT access token
@@ -55,7 +55,7 @@
 - **Endpoint:** `POST /ResetPassword`
 - **Description:** Endpoint to reset the password for a user.
 - **Parameters:**
-  - `email`: The email of the user whose password is to be reset.
+  - `email`: The email of the user whose password is to be reset (username).
 - **Response:**
   - `200 OK`: Email sent successfully.
   - `401 Unauthorized`: User with the provided email not found.
