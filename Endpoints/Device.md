@@ -34,6 +34,8 @@
           "significant": true, //device may have multiple significant values
           "primary": true, //unique, only one variable per device
           "timerSeconds": 0, //refresh period
+          "flow": "string",
+          "flowId": 0,
           "deviceName": "string",
           "modelRepositoryVariable": 0,
           "range": {
@@ -81,6 +83,8 @@
         "lastInsert": "2024-04-07T17:27:25.447Z",
         "significant": true, //device may have multiple significant values
         "primary": true, //unique, only one variable per device
+        "flow": "string",
+        "flowId": 0,
         "timerSeconds": 0, //refresh period
         "deviceName": "string",
         "modelRepositoryVariable": 0,

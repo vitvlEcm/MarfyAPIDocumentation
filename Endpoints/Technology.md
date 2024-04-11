@@ -11,8 +11,8 @@
   - `nodeId`: The ID of the node.
   - `technologyId`: The ID of the technology.
   - `Preset`: Use ID from `api/Stats/PossibleTimeseriesTimes`. To use `From` and `To` times, set this to -1.
-  - `From`: Start DateTime.
-  - `To`: End DateTime.
+  - `From`: Start DateTime in local time.
+  - `To`: End DateTime in local time.
 - **Response:**
   - `200 OK`: Technology details retrieved successfully.
     ```json
@@ -27,7 +27,7 @@
           "unitCategory": 0,
           "unit": "string",
           "value": "string",
-          "lastInsert": "2024-04-07T20:36:20.077Z",
+          "lastInsert": "2024-04-07T20:36:20.077",
           "significant": true, //device may have multiple significant values
           "primary": true, //unique, only one variable per device
           "timerSeconds": 0, //refresh period
@@ -48,7 +48,7 @@
         "variableId": 0,
         "data": [
           {
-            "timestamp": "2024-04-07T20:36:20.077Z",
+            "timestamp": "2024-04-07T20:36:20.077",
             "value": 0
           }
         ]

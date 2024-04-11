@@ -11,6 +11,7 @@
 - [Stats](/Endpoints/Stats.md)
 - [Technology](/Endpoints/Technology.md)
 - [User](/Endpoints/User.md)
+- [Flow](/Endpoints/Flow.md)
 
 ## Use Cases
 
@@ -49,3 +50,8 @@
 - removed unused parameters sourceUnit and manualUnit from multiple responses
 
 - parameters typeId, typename => technologyId, technologyName on several places. TypeId, typename kept to avoid breaking old mappings. Should be deleted if OK
+
+### 11.4.2024
+
+- added Flows endpoint and added flows to returns
+- fixed datetime offset
