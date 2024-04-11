@@ -40,8 +40,8 @@
 - **Parameters:**
   - `time`: Custom time values for aggregation.
     - `Preset`: Use ID from `api/Stats/PossibleTimeseriesTimes`. To use `From` and `To` times, set this to -1.
-    - `From`: Start DateTime.
-    - `To`: End DateTime.
+    - `From`: Start DateTime in local time.
+    - `To`: End DateTime in local time.
   - `nodeId`: The ID of the node for which data is requested.
 - **Response:**
   - `200 OK`: Aggregated data retrieved successfully.
