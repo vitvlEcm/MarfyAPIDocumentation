@@ -43,7 +43,9 @@
             "value": "string",
             "unit": "string",
             "size": 0, //Size of block in the app, 1 for small box, 2 for wide box
-            "dateTime": "2024-04-08T01:00:53.095Z"
+            "dateTime": "2024-04-08T01:00:53.095Z",
+            "flow": "string",
+            "flowId": 0
           }
         ]
       }
@@ -67,7 +69,9 @@
         "range": {
           "from": 0,
           "to": 0
-        }
+        },
+        "flow": "string",
+        "flowId": 0
       }
     ]
   }

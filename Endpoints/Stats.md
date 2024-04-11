@@ -66,6 +66,8 @@
         "elementId": 0, //Id of variable => used for GET /TimeseriesData
         "elementName": "string",
         "variableId": 0,
+        "flow": "string",
+        "flowId": 0,
         "valueSerialized": "string",
         "unit": "string",
         "value": 0,
