@@ -38,7 +38,12 @@
 - **Endpoint:** `POST /RefreshToken`
 - **Description:** Endpoint to refresh the access token using a refresh token.
 - **Parameters:**
-  - `refreshToken`: The refresh token.
+  - `Input`: Object with username and password.
+    ```json
+    {
+      "refreshToken": "string"
+    }
+    ```
 - **Response:**
   - `200 OK`: Renewed access token.
     ```json

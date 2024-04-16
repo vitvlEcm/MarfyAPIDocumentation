@@ -55,3 +55,7 @@
 
 - added Flows endpoint and added flows to returns
 - fixed datetime offset
+
+### 16.4.2024
+
+- in `/api/Auth/RefreshToken` added object to request body
