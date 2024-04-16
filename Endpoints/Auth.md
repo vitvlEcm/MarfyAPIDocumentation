@@ -48,8 +48,13 @@
   - `200 OK`: Renewed access token.
     ```json
     {
-      "accessToken": "string", //JWT refresh token
-      "accessExpiration": "2024-04-07T17:41:49.047Z" //expiration timestamp in UTC
+      "userName": "string",
+      "name": "string",
+      "surname": "string",
+      "accessToken": "string",
+      "accessExpiration": "2024-04-16T10:42:50.925Z",
+      "refreshToken": "string",
+      "refreshExpiration": "2024-04-16T10:42:50.925Z"
     }
     ```
   - `400 Bad Request`: Provided token is not readable.
